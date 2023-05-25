@@ -1,0 +1,25 @@
+
+
+public class RecordState {
+	private String soTuoi;
+	
+    public String getSoTuoi() {
+		return soTuoi;
+	}
+
+	public void setSoTuoi(String soTuoi) {
+		this.soTuoi = soTuoi;
+	}
+
+	
+
+	public RecordState(String soTuoi) {
+		super();
+		this.soTuoi = soTuoi;
+	}
+
+	@Override
+	public String toString() {
+		return "RecordState [soTuoi=" + soTuoi + "]";
+	}
+}
